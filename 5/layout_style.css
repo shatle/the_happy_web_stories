@@ -1,0 +1,58 @@
+.gray {
+    background: lightgrey;
+}
+
+.red {
+    background-color: #f7ebeb;
+}
+
+.purple {
+    background-color: #e6d9e6;
+}
+
+
+
+#header {
+    height: 60px;
+    width: 100%;
+}
+
+#sidebar {
+    width: 60px;
+    height: 200px;
+}
+
+#content {
+    min-width: 200px;
+    min-height: 200px;
+}
+
+#container2 {
+    display: flex;
+}
+#container2 #content {
+    flex: 1;
+}
+
+#container3 {
+    display: flex;
+}
+#container3 #sidebar {
+    height: 260px;
+}
+#container3 #main {
+    flex: 1;
+}
+
+#container4 {
+    display: flex;
+    flex-direction: column;
+}
+#container4 #main {
+    flex: 1;
+    display: flex;
+}
+
+#container4 #content {
+    flex: 1;
+}
